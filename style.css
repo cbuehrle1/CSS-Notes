@@ -42,13 +42,18 @@ table {
 	border-spacing: 0;
 }
 
+html{
+  background-color: #FBFBF2;
+}
 .intro{
-  background-color: beige;
+  background-color: #847577;
   font-family: Arial, sans-serif;
+  color: #E5E6E4;
 }
 img{
   width: 40px;
   height: 40px;
+  opacity: 0.6;
 }
 .together{
   display: inline-block;
@@ -62,15 +67,27 @@ img{
 a{
   text-decoration: none;
   font-weight: bold;
+  color: #CFD2CD;
 }
 a:hover{
-  color: white;
+  color: blue;
 }
 .container{
-  background-color: green;
-}
-.content{
   margin: 0 auto 0 auto;
-  max-width: 800px;
-  background-color: yellow;
+  max-width: 900px;
+}
+.secondary-header{
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 3em;
+  padding: 50px 0 25px 0;
+}
+.body-text{
+  font-weight: normal;
+  line-height: 1.5em;
+  font-size: 1.5em;
+  font-family: georgia;
+}
+p{
+  padding: 25px 0 25px 0;
 }
