@@ -27,7 +27,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style: normal;
 }
 blockquote, q {
 	quotes: none;
@@ -61,6 +61,9 @@ img{
   font-size: 2em;
   font-weight: bolder;
 }
+.together a{
+  color: #E5E6E4;
+}
 .thelinks{
   padding: 0 30px 0 30px;
 }
@@ -80,7 +83,7 @@ a:hover{
   font-weight: bold;
   font-family: sans-serif;
   font-size: 3em;
-  padding: 50px 0 25px 0;
+  padding: 40px 0 40px 0;
 }
 .body-text{
   font-weight: normal;
@@ -88,6 +91,15 @@ a:hover{
   font-size: 1.5em;
   font-family: georgia;
 }
+.listthing{
+  padding-left: 25px;
+}
+.secondlist{
+  padding-left: 25px;
+}
 p{
   padding: 25px 0 25px 0;
+}
+.less-spacing{
+  padding: 15px 0 15px 0;
 }
