@@ -49,6 +49,9 @@ html{
   background-color: #847577;
   font-family: Arial, sans-serif;
   color: #E5E6E4;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 img{
   width: 40px;
@@ -78,6 +81,7 @@ a:hover{
 .container{
   margin: 0 auto 0 auto;
   max-width: 900px;
+  padding-top: 100px;
 }
 .secondary-header{
   font-weight: bold;
