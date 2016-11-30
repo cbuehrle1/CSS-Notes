@@ -114,7 +114,18 @@ a:hover{
   line-height: 1.5em;
   font-size: 1.5em;
   font-family: georgia;
-	color: #FF6B6B;
+}
+.transition{
+	transition property: font-size, color;
+	transition-delay: 1s;
+	transition-duration: 3s;
+}
+.transition:hover{
+	transition-property: font-size, color;
+	transition-delay: 1s;
+	transition-duration: 3s;
+	font-size: 16px;
+	color: purple;
 }
 .listthing{
   padding-left: 25px;
@@ -140,6 +151,7 @@ footer p{
   color: #4ECDC4;
 	font-weight: bold;
 }
+
 @media(max-width: 950px){
 	.container{
 		width: auto;
