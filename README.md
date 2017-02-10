@@ -1,0 +1,1 @@
+CSS-Notes constituted a page for the growth in understanding of basic CSS concepts. The better we could explain them in our own words, the more likely we were at the Iron Yard to understand the concepts.
